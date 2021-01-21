@@ -1,0 +1,177 @@
+body {
+  background: #fafafa;
+  position: relative;
+}
+
+.follow,
+.dashboard {
+  font-family: "Playfair Display", serif;
+}
+
+.jumbo-title {
+  /* font-family: 'Source Code Pro', monospace;
+  color: #3a404a; */
+  /* font-family: "Hanalei", cursive;
+  color: #6b26b6 !important; */
+  font-family: "Staatliches", cursive;
+}
+
+/* start of signup Form */
+
+.myRightCtn {
+  position: relative;
+  background-image: linear-gradient(45deg, #f046ff, #9b00e8);
+  border-radius: 25px;
+  height: 100%;
+  padding: 25px;
+  color: rgb(192, 192, 192);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myLeftCtn {
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
+  height: 100%;
+  padding: 25px;
+  padding-left: 50px;
+}
+.myLeftCtn header {
+  color: blueviolet;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.row {
+  height: 100%;
+}
+.myCard {
+  position: relative;
+  background: #fff;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+.myRightCtn header {
+  color: #fff;
+  font-size: 44px;
+}
+.box {
+  position: relative;
+  margin: 20px;
+  margin-bottom: 100px;
+}
+.myLeftCtn .myInput {
+  width: 230px;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 50px;
+  border: none;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+.myLeftCtn .myInput:focus {
+  outline: none;
+}
+.myForm {
+  position: relative;
+  margin-top: 50px;
+}
+.myLeftCtn .butt {
+  background: linear-gradient(45deg, #bb36fd, #9b00e8);
+  color: #fff;
+  width: 230px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+}
+.myLeftCtn .butt:hover {
+  background: linear-gradient(45deg, #c85bff, #b726ff);
+}
+.myLeftCtn .butt:focus {
+  outline: none;
+}
+.myLeftCtn .fas {
+  position: relative;
+  color: #bb36fd;
+  left: 36px;
+}
+.butt_out {
+  background: transparent;
+  color: #fff;
+  width: 120px;
+  border: 2px solid#fff;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+.butt_out:hover {
+  border: 2px solid#eecbff;
+}
+.butt_out:focus {
+  outline: none;
+}
+
+/* End of sign up form */
+
+.quotes {
+  font-family: "Caveat", cursive;
+  font-size: 3em;
+}
+
+.additionaldesc {
+  font-family: "Caveat", cursive;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.5rem;
+}
+
+/* navbar hover effects */
+
+.nav-custom-class {
+  font-size: 1em;
+  transition-property: background-color;
+  transition-duration: 0.4s;
+  /* transition: transform 450ms; */
+}
+.nav-custom-class:hover {
+  background-color: #1988ff;
+  border-radius: 15px;
+}
+.nav__signout:hover {
+  background-color: #b034fa;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* ends */
+
+/* Navbar color changer while scrolling */
+
+.navBackgroundClassChanger.scrolled {
+  background-color: #483659 !important;
+  transition: background-color 300ms linear;
+}
+
+.oops {
+  font-family: "Lobster", cursive;
+}
+
+.miniProjectDetails {
+  font-family: "Grenze Gotisch", cursive;
+  font-size: 1.5rem;
+}
+
+/* .footer {
+  bottom: 0;
+  position: static;
+} */

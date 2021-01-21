@@ -1,0 +1,7 @@
+.imageHelper__img {
+  transition: transform 450ms;
+}
+
+.imageHelper__img:hover {
+  transform: scale(1.08);
+}
